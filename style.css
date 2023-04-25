@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("https://images.pexels.com/photos/3618162/pexels-photo-3618162.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* input city */
+
+.input-city{
+    padding: 30px;
+    width: 50vw;
+    height: 13vh;    
+    border: 0px;
+    border-radius: 40px;    
+    font-size: 2rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.20);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 15px 30px 5px;    
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+}
+
+.input-box input{
+    width: 90%;
+    height: 100%;
+    border: 0px;
+    background: transparent;   
+    font-size: 2rem;
+    color: white;
+    outline: none;
+}
+
+.cross-button{
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    width: 10%;
+}
+
+.search-box{
+    background: transparent;
+    border: 0px;
+    width: 30%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.icons{
+    height: 80%;
+}
+
+/* show weather */
+
+.show-weather{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    width: 50vw;
+    height: 60vh;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.20);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 20px 30px 5px; 
+    color: white;
+    font-size: 2.5rem;
+}
+
+.weather-image{
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    width: 50%;
+}
+
+.weather-details{
+    font-family: 'Oswald', sans-serif;
+    color: #eacaae;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    padding-top: 2rem;
+    height: 45%;
+    width: 90%;
+}
+
+.current-city{
+    text-align: center;
+}
+
+.wind-speed img{
+    width: 70px;
+}
+
+.wind-speed{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.humidity{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.humidity img{
+    width: 70px;
+}
+
+.current-temparature {
+    height: 100%;
+    display: flex;
+    font-size: 9rem;
+    width: 30%;
+}
+
+.current-temparature span{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+::placeholder{
+    font-size: 2rem;
+    color: white;
+}
