@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-body{
+.screen{
     background-image: url("https://images.pexels.com/photos/3618162/pexels-photo-3618162.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,7 +20,6 @@ body{
 /* input city */
 
 .input-city{
-    padding: 30px;
     width: 50vw;
     height: 13vh;    
     border: 0px;
@@ -35,15 +34,16 @@ body{
 
 .input-box{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
     width: 70%;
     height: 100%;
 }
 
 .input-box input{
-    width: 90%;
+    width: 100%;
     height: 100%;
+    padding: 10px 0px 0px 20px;
     border: 0px;
     background: transparent;   
     font-size: 2rem;
@@ -51,11 +51,11 @@ body{
     outline: none;
 }
 
-.cross-button{
-    visibility: hidden;
-    display: flex;
-    align-items: center;
-    width: 10%;
+.error-city-details{
+    width: 100%;
+    height: 100%;
+    padding: 10px 0px 0px 20px;
+    font-size: 1.3rem;
 }
 
 .search-box{
@@ -63,12 +63,12 @@ body{
     border: 0px;
     width: 30%;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
 }
 
 .icons{
-    height: 80%;
+    height: 70%;
 }
 
 /* show weather */
@@ -129,6 +129,7 @@ body{
 }
 
 .current-temparature {
+    display: inline;
     height: 100%;
     display: flex;
     font-size: 9rem;
@@ -145,4 +146,12 @@ body{
 ::placeholder{
     font-size: 2rem;
     color: white;
+}
+
+
+/* utility classes */
+
+.hidden{
+    visibility: hidden;
+    width: 0px;
 }

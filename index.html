@@ -10,41 +10,42 @@
 </head>
 <body>
 
-     <div class="input-city"> 
-        <div class="input-box">
-            <input type="text" name="city-name" id="city-name" placeholder="Enter your city name" >
+    <div class="screen">
 
-            <button class="cross-button"><img class="icons" src="https://cdn.iconscout.com/icon/premium/png-512-thumb/cross-delete-2698847-2246051.png?f=avif&w=256" alt=""></button> 
+        <div class="input-city "> 
+            <div class="input-box">
+                <input type="search" id="city-name" placeholder="Enter your city name" >
+                <div class="error-city-details hidden">a</div>
+            </div>
+
+            <button class="search-box">
+                <img class = "icons" src="https://cdn.iconscout.com/icon/premium/png-512-thumb/search-3049358-2535204.png?f=avif&w=256" alt="search">
+            </button>
+        </div>  
+
+        <div class="show-weather hidden">
+            <div class="weather-image"><img class = "weatherImage" src="" alt="weather image"></div>
+
+            <div class="weather-details">
+                <div class="current-city">
+                    <p>Current City</p>
+                    <div class="current-city-name">Alwar</div>
+                </div>
+
+                <div class="wind-speed">
+                    <img src="wind.png" alt="">
+                    <div class="wind-speed-value"><span class="windValue"></span><span style="font-size: 1.5rem;">km/hr</span></div>
+                </div>
+
+                <div class="humidity">
+                    <img src="humidity.png" alt="">
+                    <div class="humidity-value"><span class="humidityValue"></span><span style="font-size: 1.5rem;">%</span></div>
+                </div>
+
+                <div class="current-temparature"><span class="temp"></span><span>&#176;</span></div>
+            </div>
         </div>
-
-        <button class="search-box">
-            <img class = "icons" src="https://cdn.iconscout.com/icon/premium/png-512-thumb/search-3049358-2535204.png?f=avif&w=256" alt="search">
-        </button>
-    </div>  
-
-    <!-- <div class="show-weather">
-        <div class="weather-image"><img src="cloud.png" alt=""></div>
-
-        <div class="weather-details">
-            <div class="current-city">
-                <p>Current City</p>
-                <div class="current-city-name">Alwar</div>
-            </div>
-
-            <div class="wind-speed">
-                <img src="wind.png" alt="">
-                <div class="wind-speed-value">21</div>
-            </div>
-
-            <div class="humidity">
-                <img src="humidity.png" alt="">
-                <div class="humidity-value">23</div>
-            </div>
-
-            <div class="current-temparature">21<span>&#176;</span></div>
-        </div>
-    </div> -->
-
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
