@@ -147,12 +147,7 @@
 }
 
 
-/* utility classes */
 
-.hidden{
-    visibility: hidden;
-    width: 0vw;
-}
 
 /* media query */
 
@@ -221,6 +216,7 @@
 }
 
 @media screen and (width <= 376px) {
+   
     .icons{
         width: 40%;
         height: 40%;
@@ -256,4 +252,11 @@
     ::placeholder{
         font-size: 1.2rem;
     }    
+}
+
+/* utility classes */
+
+.hidden{
+    visibility: hidden;
+    width: 0vw; 
 }
