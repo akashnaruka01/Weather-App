@@ -164,7 +164,7 @@
 
 @media screen and (width <= 1025px) {
     .input-city{
-        /* width: 70vw; */
+        width: 70vw;
     }
     .show-weather{
         width: 70vw;
@@ -185,7 +185,7 @@
 
 @media screen and (width <= 769px) {
     .input-city{
-        /* width: 80vw; */
+        width: 80vw;
     }
     .weather-details{
         font-size: 1.6rem;
@@ -201,7 +201,7 @@
 
 @media screen and (width <= 426px) {
     .input-city{
-        /* width: 100vw; */
+        width: 100vw;
     }
     ::placeholder{
         font-size: 1.4rem;
